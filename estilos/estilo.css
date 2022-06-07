@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: blue;
+    
+}
+
+
+.izquierda {
+    text-align: left;
+}
+
+.contenedor {
+    display: grid;
+    width: 100%;
+    min-height: 400px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.centrar {
+    text-align: center;
+}
+    
+ul {
+    list-style: none;
+    font-size: 0;
+    height: 25px;
+    width: 50%;
+    border-color: black;
+    border-style: dashed;
+    
+}
+
+.lis1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lis1 a:hover {
+    color: brown;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boton {
+    display: grid;
+    grid-column: 3/3;
+}
+
+.info {
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ima {
+    width: 300px;
+    height: 205px;
+    border: solid 2px white;
+}
+
+.pp {
+    text-align: right;
+}
+
+.titu {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fondito {
+    background-image: url(../imagenes/fondito.jpg);
+    background-size: 100%;
+}
+
+.contenedor2 {
+    display: grid;
+    width: 100%;
+    min-height: 300px;
+    grid-template-columns: 250px 250px 250px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button a:hover{
+    color: yellow;
+}
+
+.padre-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    flex-direction:row;
+    justify-content: baseline;
+    background-color: white;
+}
